@@ -2,12 +2,12 @@
   --light-blue:rgb(112, 248, 186);
   --mid-gray:rgb(8, 76, 97);
   --carrot:rgb(234, 144, 16);
-	--transparent:rgba(0,0,0,0);
-	--dark:rgb(0,0,0);
+  --transparent:rgba(0,0,0,0);
+  --dark:rgb(0,0,0);
 }
 .mybutton{
   background-color: var(--transparent);
-	color: var(--carrot);
+  color: var(--carrot);
   display:flex;
   margin:10px;
   padding:10px 20px;
