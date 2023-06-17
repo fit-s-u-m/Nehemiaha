@@ -16,6 +16,8 @@
   transition: background-color 0.15s;
   transition: color 0.15s; 
   border-radius:8px;
+	border:outset;
+	border-color:rgba(0,0,0,0.3);
   text-transform: uppercase;
 }
 .mybutton:hover{
@@ -27,7 +29,7 @@
 .container{
   display:grid;
   grid-template-columns:1fr 3fr;
-  background-color:rgba(0,0,0,0.3);
+  background-color:rgba(0,0,0,0.4);
 }
 
 #defaultCanvas0{
