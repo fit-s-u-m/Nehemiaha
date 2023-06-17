@@ -2,12 +2,12 @@
   --light-blue:rgb(112, 248, 186);
   --mid-gray:rgb(8, 76, 97);
   --carrot:rgb(234, 144, 16);
-	--transparent:rgba(0,0,0,0);
-	--dark:rgb(0,0,0);
+  --transparent:rgba(0,0,0,0);
+  --dark:rgb(0,0,0);
 }
 .mybutton{
   background-color: var(--transparent);
-	color: var(--carrot);
+  color: var(--carrot);
   display:flex;
   margin:10px;
   padding:10px 20px;
@@ -27,7 +27,7 @@
 .container{
   display:grid;
   grid-template-columns:1fr 3fr;
-  background-color:rgba(0,0,0,0.5);
+  background-color:rgba(0,0,0,0.3);
 }
 
 #defaultCanvas0{
@@ -35,7 +35,7 @@
 }
 
 #button_container{
-  background-color:rgba(10,20,20,0.55);
+  background-color:rgba(10,20,20,0.6);
   display: inline-block;
 }
 .main{
